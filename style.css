@@ -1,0 +1,63 @@
+/* Basic Style */
+
+body {
+    background: #fff;
+    color: #333;
+    font-family: Lato, sans-serif;
+    background-color: #e4e4e4;
+  }
+  
+  .container {
+    margin-top: 10px;
+  
+    width: 700px;
+    border-radius: 10px;
+  }
+  .card {
+    padding: 20px;
+  }
+  .itams {
+    margin-top: 20px;
+  }
+  
+  ul li {
+    padding: 10px;
+    list-style: none;
+    background-color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    color: #111;
+  }
+  ul li:hover {
+    background-color: blanchedalmond;
+  }
+  
+  ul li button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.25s;
+  }
+  .btn-success {
+    margin-right: 50px;
+  }
+  .complete {
+    text-decoration: line-through rgb(95, 84, 84);
+  }
+  .hidden {
+    visibility: hidden;
+  }
+  .time {
+    margin-left: 10px;
+    color: #a7a4a4;
+  }
+  .timeout {
+    text-decoration: line-through red;
+  }
+  
